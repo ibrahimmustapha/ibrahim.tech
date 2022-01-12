@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import {
+container,
 navLink,
 blogDate,
 description,
@@ -9,7 +10,7 @@ readMe
 // post component
 const PostLink = ({ post }) => (
     <div>
-    <article>
+    <article className={container}>
     <h2>
       <Link className={navLink} to={post.frontmatter.slug}>
       {post.frontmatter.title}
