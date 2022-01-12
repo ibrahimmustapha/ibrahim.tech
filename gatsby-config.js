@@ -4,14 +4,46 @@ module.exports = {
     title: "Markdown app",
   },
   plugins: [
-    "gatsby-transformer-remark",
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        name: "markdown-pages",
+        path: `${__dirname}/src/markdown-pages`,
       },
-      __key: "pages",
     },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-prismjs`,
+          },
+        ],
+      },
+    },
+    // {
+    //   resolve: `gatsby-transformer-remark`,
+    //   options: {
+    //     plugins: [
+    //       {
+    //         resolve: `gatsby-remark-images`,
+    //         options: {
+    //           maxWidth: 800,
+    //           withWebp: true,
+    //           disableBgImage: true,
+    //           backgroundColor: `transparent`,
+    //           loading: `lazy`,
+    //           tracedSVG: {
+    //             color: `coral`,
+    //           }
+    //         },
+    //       },
+    //     ],
+    //   },
+    // },
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-remark-images`,
   ],
 };
