@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .container {
     margin: auto;
     max-width: 800px;
     /* font-family: sans-serif; */
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
 }
 
 .heading {
