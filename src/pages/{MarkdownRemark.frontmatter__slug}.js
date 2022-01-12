@@ -32,6 +32,7 @@ query($id: String!) {
         date(formatString: "MMMM DD, YYYY")
         slug
         title
+        description
         hero_image_alt
         hero_image {
             childImageSharp {

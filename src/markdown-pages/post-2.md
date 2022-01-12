@@ -1,6 +1,7 @@
 ---
 slug: "/blog/my-second-post"
 date: "2019-05-07"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
 hero_image: "./img1.jpg"
 hero_image_alt: "green robot"
 title: "My second blog post"
