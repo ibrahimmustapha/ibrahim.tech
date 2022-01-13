@@ -15,6 +15,7 @@
 
 .author-container {
     display: flex;
+    margin-top: 15px;
 }
 
 .author-details {
