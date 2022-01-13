@@ -1,7 +1,16 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
+import {
+dateLinkSpan,
+dateLink,
+avatarStyle,
+authorContainer,
+authorDetails,
+blogImage,
+} from "../styles/blog.module.css"
 
 const Template = ({ data }) => {
     const { markdownRemark } = data // holds post data
@@ -11,9 +20,17 @@ const Template = ({ data }) => {
       <Layout pageTitle="Welcome to my blog">
         <div className="blog-post-container">
         <div className="blog-post">
-          <h2>{frontmatter.title}</h2>
-          <GatsbyImage image={image} alt={frontmatter.hero_image_alt}/>
-          <p>{frontmatter.date}</p>
+          <h1>{frontmatter.title}</h1>
+          <hr/>
+          <div className={authorContainer}>
+            <StaticImage className={avatarStyle} src="./mee.jpg" alt="avatar" />
+            <div className={authorDetails}>
+            <h3>{frontmatter.author}</h3>
+            <p className={dateLink}>Published on <span className={dateLinkSpan}>{frontmatter.date}</span></p>
+            </div>
+          </div>
+          <hr/>
+          <GatsbyImage className={blogImage} image={image} alt={frontmatter.hero_image_alt}/>
           <div
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
@@ -33,6 +50,8 @@ query($id: String!) {
         slug
         title
         description
+        author
+        github
         hero_image_alt
         hero_image {
             childImageSharp {

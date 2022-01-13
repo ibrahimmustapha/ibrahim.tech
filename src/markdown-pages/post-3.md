@@ -2,6 +2,8 @@
 slug: "/blog/my-third-post"
 date: "2019-06-08"
 description: "This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter."
+author: "Mustapha Ibrahim"
+github: "https://github.com/ibrahimmustapha"
 hero_image: "./img1.jpg"
 hero_image_alt: "green robot"
 title: "New Beginnings"

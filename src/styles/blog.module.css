@@ -1,0 +1,27 @@
+.date-link-span {
+    font-weight: bold;
+}
+
+.date-link {
+    color: rgb(155, 152, 152);
+    margin-top: -20px;
+}
+
+.avatar-style {
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+}
+
+.author-container {
+    display: flex;
+}
+
+.author-details {
+    margin-top: -14px;
+    margin-left: 20px;
+}
+
+.blog-image {
+    margin-top: 25px;
+}
