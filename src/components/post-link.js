@@ -16,7 +16,7 @@ const PostLink = ({ post }) => (
       {post.frontmatter.title}
       </Link>
         </h2>
-    <p className={blogDate}>{post.frontmatter.date}</p>
+    <p className={blogDate}>Published on {post.frontmatter.date}</p>
     <p className={description}>{post.frontmatter.description}</p>
     <p>
     <Link className={readMe} to={post.frontmatter.slug}>

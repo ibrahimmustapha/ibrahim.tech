@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
 .container {
     margin-bottom: 35px;
 }
@@ -9,8 +11,9 @@
 
 .blog-date {
     margin-top: -22px;
-    color: #9b9b9b;
-    font-size: 16px;
+    color: #afafaf;
+    font-size: 18px;
+    font-family: 'Gochi Hand', cursive;
 }
 
 .description {
@@ -21,6 +24,6 @@
 .read-me {
     color: #3679f7;
     text-decoration: none;
-    font-size: 16px;
-
+    font-size: 18px;
+    font-family: 'Gochi Hand', cursive;
 }

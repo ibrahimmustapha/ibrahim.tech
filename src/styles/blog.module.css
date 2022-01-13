@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
 .date-link-span {
     font-weight: bold;
 }
@@ -5,12 +7,15 @@
 .date-link {
     color: rgb(155, 152, 152);
     margin-top: -20px;
+    /* font-size: 15px; */
+    font-family: 'Gochi Hand', cursive;
 }
 
 .avatar-style {
     width: 57px;
     height: 57px;
     border-radius: 50%;
+    margin-top: 5px;
 }
 
 .author-container {
