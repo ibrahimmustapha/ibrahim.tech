@@ -1,77 +1,79 @@
 ---
 slug: "/blog/my-third-post"
 date: "2019-06-08"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+description: "This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter."
 hero_image: "./img1.jpg"
 hero_image_alt: "green robot"
-title: "My third blog post"
+title: "New Beginnings"
 ---
 
-# Gatsby example websites
+Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+right at the coast of the Semantics, a large language ocean. A small river named
+Duden flows by their place and supplies it with the necessary regelialia.
 
-Example websites sit on one or the other end of the spectrum from very basic
-to complex/complete.
+## On deer horse aboard tritely yikes and much
 
-A basic example website should demonstrate a specific technology/plugin/technique to help other developers understand how to accomplish a task. They should be named `using-*` (e.g. `using-sass`).
+The Big Oxmox advised her not to do so, because there were thousands of bad
+Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
+didn’t listen. She packed her seven versalia, put her initial into the belt and
+made herself on the way.
 
-Complex/complete websites are for studying how to build more complex websites.
+When she reached the first hills of the **Italic Mountains**, she had a last
+view back on the skyline of her hometown _Bookmarksgrove_, the headline of
+[Alphabet Village](http://google.com) and the subline of her own road, the Line
+Lane. Pityful a rhetoric question ran over her cheek, then she continued her
+way. On her way she met a copy.
 
-```javascript{numberLines: true}
-// In your gatsby-config.js
-plugins: [
-  {
-    resolve: `gatsby-transformer-remark`,
-    options: {
-      plugins: [
-        `gatsby-remark-prismjs`,
-      ]
-    }
-  }
-]
-```
+## Overlaid the jeepers uselessly much excluding
 
-## Running an example site
+But nothing the copy said could convince her and so it didn’t take long until a
+few insidious Copy Writers ambushed her, made her drunk with
+[Longe and Parole](http://google.com) and dragged her into their agency, where
+they abused her for their projects again and again. And if she hasn’t been
+rewritten, then they are still using her.
 
-1.  Enter one of the sites (e.g. `cd gatsbygram`)
-2.  Install the dependencies for the site `npm install`
-3.  Run the Gatsby development server `gatsby develop`
+![Green code image](./img1.jpg)
 
-## Checklist for building an example website
+It is a paradisematic country, in which roasted parts of sentences fly into your
+mouth. Even the all-powerful Pointing has no control about the blind texts it is
+an almost unorthographic life One day however a small line of blind text by the
+name of Lorem Ipsum decided to leave for the far World of Grammar.
 
-- Free of errors
-- Has Google Analytics setup
-- Notifications setup to ping PRs on success/failure of build
-- For `using-x` websites, link to the site from the plugin README and to the
-  plugin(s) from the website.
+## According a funnily until pre-set or arrogant well cheerful
 
-## Building all the example websites
+The Big Oxmox advised her not to do so, because there were thousands of bad
+Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
+didn’t listen. She packed her seven versalia, put her initial into the belt and
+made herself on the way.
 
-There's also a bash script in this folder called `build-all-examples.sh`, which automates the process of changing into each example folder, running `npm i`, and running `gatsby build`.
+1.  So baboon this
+2.  Mounted militant weasel gregariously admonishingly straightly hey
+3.  Dear foresaw hungry and much some overhung
+4.  Rash opossum less because less some amid besides yikes jeepers frenetic
+    impassive fruitlessly shut
 
-## Running an example site
+When she reached the first hills of the Italic Mountains, she had a last view
+back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
+Village and the subline of her own road, the Line Lane. Pityful a rhetoric
+question ran over her cheek, then she continued her way. On her way she met a
+copy.
 
-1.  Enter one of the sites (e.g. `cd gatsbygram`)
-2.  Install the dependencies for the site `npm install`
-3.  Run the Gatsby development server `gatsby develop`
+<iframe width="420" height="315" src="https://www.youtube.com/embed/l9AzO1FMgM8" frameborder="0" allowfullscreen></iframe>
 
-```java
-String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
-for (String i : cars) {
-  System.out.println(i);
-}
-```
+But nothing the copy said could convince her and so it didn’t take long until a
+few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
+and dragged her into their agency, where they abused her for their projects
+again and again. And if she hasn’t been rewritten, then they are still using
+her. Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts.
 
-Complex/complete websites are for studying how to build more complex websites.
+## Silent delightfully including because before one up barring chameleon
 
-## Running an example site
-
-1.  Enter one of the sites (e.g. `cd gatsbygram`)
-2.  Install the dependencies for the site `npm install`
-3.  Run the Gatsby development server `gatsby develop`
-
-![Bill_Gates](./img1.jpg)
-
-## JavaScript codeblock example
+Separated they live in Bookmarksgrove right at the coast of the Semantics, a
+large language ocean. A small river named Duden flows by their place and
+supplies it with the necessary regelialia. It is a paradisematic country, in
+which roasted parts of sentences fly into your mouth.
 
 ~~~javascript
 _.memoize = function(func, hasher) {
@@ -85,3 +87,29 @@ _.memoize = function(func, hasher) {
     return memoize;
 };
 ~~~
+
+Even the all-powerful Pointing has no control about the blind texts it is an
+almost unorthographic life One day however a small line of blind text by the
+name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
+advised her not to do so, because there were thousands of bad Commas, wild
+Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.
+
+## Wherever far wow thus a squirrel raccoon jeez jaguar this from along
+
+She packed her seven versalia, put her initial into the belt and made herself on
+the way. When she reached the first hills of the Italic Mountains, she had a
+last view back on the skyline of her hometown Bookmarksgrove, the headline of
+Alphabet Village and the subline of her own road, the Line Lane. Pityful a
+rhetoric question ran over her cheek, then she continued her way. On her way she
+met a copy.
+
+## Slapped cozy a that lightheartedly and far
+
+The copy warned the Little Blind Text, that where it came from it would have
+been rewritten a thousand times and everything that was left from its origin
+would be the word "and" and the Little Blind Text should turn around and return
+to its own, safe country. But nothing the copy said could convince her and so it
+didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
+with Longe and Parole and dragged her into their agency, where they abused her
+for their projects again and again.
+

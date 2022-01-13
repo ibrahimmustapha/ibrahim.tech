@@ -4,11 +4,11 @@
 
 .nav-link {
     text-decoration: none;
-    color: black;
+    color: rgb(115, 115, 201);
 }
 
 .blog-date {
-    margin-top: -25px;
+    margin-top: -22px;
     color: #9b9b9b;
     font-size: 16px;
 }

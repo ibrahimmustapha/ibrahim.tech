@@ -8,7 +8,7 @@ const Template = ({ data }) => {
     const { frontmatter, html } = markdownRemark
     const image = getImage(frontmatter.hero_image)
     return (
-        <Layout pageTitle="Welcome to my blog">
+      <Layout pageTitle="Welcome to my blog">
         <div className="blog-post-container">
         <div className="blog-post">
           <h2>{frontmatter.title}</h2>
