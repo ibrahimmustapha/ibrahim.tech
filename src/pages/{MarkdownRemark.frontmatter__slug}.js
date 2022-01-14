@@ -20,6 +20,7 @@ const Template = ({ data }) => {
       <Layout pageTitle="Welcome to my blog">
         <div className="blog-post-container">
         <div className="blog-post">
+          <GatsbyImage className={blogImage} image={image} alt={frontmatter.hero_image_alt}/>
           <h1>{frontmatter.title}</h1>
           <hr/>
           <div className={authorContainer}>
@@ -30,7 +31,6 @@ const Template = ({ data }) => {
             </div>
           </div>
           <hr/>
-          <GatsbyImage className={blogImage} image={image} alt={frontmatter.hero_image_alt}/>
           <div
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}

@@ -6,6 +6,7 @@ heading,
 navLinks,
 navLinkItem,    
 navLinkText,
+footerStyle,
 } from "./layout.module.css"
 
 const Layout = ({ pageTitle, children }) => {
@@ -33,6 +34,9 @@ const Layout = ({ pageTitle, children }) => {
             <main>
                 {children}
             </main>
+            <footer className={footerStyle}>
+            ©2022 Ibrahim Mustapha's Tech Blog.
+            </footer>
         </div>
     )
 }
