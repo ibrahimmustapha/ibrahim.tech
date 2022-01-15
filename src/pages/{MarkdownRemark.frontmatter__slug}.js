@@ -1,7 +1,9 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { StaticImage } from "gatsby-plugin-image"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons"
 import Layout from "../components/layout"
 import {
 dateLinkSpan,
@@ -10,6 +12,9 @@ avatarStyle,
 authorContainer,
 authorDetails,
 blogImage,
+iconContainer,
+iconStyle,
+iconLink
 } from "../styles/blog.module.css"
 
 const Template = ({ data }) => {
@@ -28,6 +33,14 @@ const Template = ({ data }) => {
             <div className={authorDetails}>
             <h3>{frontmatter.author}</h3>
             <p className={dateLink}>Published on <span className={dateLinkSpan}>{frontmatter.date}</span></p>
+            <div className={iconContainer}>
+            <Link className={iconLink} to={frontmatter.github}>
+            <FontAwesomeIcon icon={faGithub} className={iconStyle} />
+            </Link>
+            <Link className={iconLink} to={frontmatter.github}>
+            <FontAwesomeIcon icon={faTwitter} className={iconStyle} />
+            </Link>
+            </div>
             </div>
           </div>
           <hr/>

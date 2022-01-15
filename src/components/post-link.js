@@ -6,7 +6,7 @@ navLink,
 blogDate,
 description,
 readMe
-} from "./post.module.css"
+} from "./css/post.module.css"
 // post component
 const PostLink = ({ post }) => (
     <div>
