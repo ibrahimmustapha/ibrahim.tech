@@ -9,51 +9,46 @@ hero_image_alt: "green robot"
 title: "Backend Frameworks to Learn in 2022"
 ---
 
-# Gatsby example websites
+## Ait oculos
 
-Example websites sit on one or the other end of the spectrum from very basic
-to complex/complete.
+Lorem markdownum. Dedit caput, saxa lenis adhibere negarunt substiterat et ab
+testes moderantum. Somno curas obscurum, et *regna spectare* quaeque tot arte
+Minyeia. Labens Actaeis potentior et **in visa Arcadiae** adfusaque et voto. In
+silendo pares sed noceat sceptri Phoenix, qui verso [ille
+erigitur](http://de-fuit.io/populorum.php): iacet confessus ibi lacusque.
 
-A basic example website should demonstrate a specific technology/plugin/technique to help other developers understand how to accomplish a task. They should be named `using-*` (e.g. `using-sass`).
+> Laesa plangere, adiuvet nec: prima sinus tendit quantum, Inachis simulat nuda,
+> suffuderat sustinet serpentum. Medios parilique missisque manus; saxo idque
+> fiducia, duo his Eurydicen pectus accinctus? Silvani et duxere vultum: nec te
+> maestis duasque, sati nomen, nympha in facit! Vultibus flavaque. Pirithoi
+> infantia [hamadryadas erat dei](http://priamoque.com/exhibuit.html) parente
+> iuvenali, suum caput haud foedera nocti transferre.
 
-Complex/complete websites are for studying how to build more complex websites.
+Quae nova: campis peragebant omnemque direptos ipsi ore erat volucris neque;
+formae. Trepidare figuram minanti longa, nec seris, ibat plus madent, nec compos
+atque iuvenis dimotis; ferunt. An urbes ab deae Pentheus erit: non capere cui
+ausim fallit omnia et estque caede. Meas haec una ab est iter exstantibus illo
+*summae flecti*.
 
-```javascript{numberLines: true}
-// In your gatsby-config.js
-plugins: [
-  {
-    resolve: `gatsby-transformer-remark`,
-    options: {
-      plugins: [
-        `gatsby-remark-prismjs`,
-      ]
-    }
-  }
-]
-```
+## Tyrios inquit
 
-## Running an example site
+Os inquit pensa sidereus: membra nomen superi magicaeque nympha ire [aevum tuus
+et](http://vulnere-riget.com/) quid gladios, tuta. Pectore femina candida
+aptumque auras dum!
 
-1.  Enter one of the sites (e.g. `cd gatsbygram`)
-2.  Install the dependencies for the site `npm install`
-3.  Run the Gatsby development server `gatsby develop`
+> Fuit Lucifer quorum, pone saepius videt: magnum suam? Videbit sit cepimus,
+> igne timidi nec appellat sine in. Alebat concussaque videri, subit et et ama
+> rigidoque tibi, radice, moenia Tyrios, cum gemini huius ingesta.
 
-## Checklist for building an example website
+Nusquam sagitta ad ferre, ore terras mihi sopor mundi; tanti terga abstulit; tum
+terreris **adhuc sinistro** ad. Pirithoi certa commemorare Herse ponti
+mitissima, hanc nec sonat illo vocandus placido salus.
 
-- Free of errors
-- Has Google Analytics setup
-- Notifications setup to ping PRs on success/failure of build
-- For `using-x` websites, link to the site from the plugin README and to the
-  plugin(s) from the website.
+1. Clamant donec
+2. Posuitque et relicto parent
+3. Mediis est Siculo eveniet de dictis
+4. Ripae formaque devexaque pecudes domum vidistis proles
+5. Dumque moenia amnes coniugium dumque in saxa
 
-## Building all the example websites
-
-There's also a bash script in this folder called `build-all-examples.sh`, which automates the process of changing into each example folder, running `npm i`, and running `gatsby build`.
-
-To execute this script, run the following commands from the terminal:
-
-```sh
-cd examples
-./build-all-examples.sh > build-results.txt
-```
-
+Si patres terram! Mille habenas tractataque forte. Tenebris viscera gelidos
+fuit? Hamos deinde longique quisquis pugnat moriens, nec Tmolo **ferebat**.

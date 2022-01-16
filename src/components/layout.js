@@ -1,4 +1,4 @@
-import * as React from "react"
+import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import {
 container,
@@ -8,6 +8,7 @@ navLinkItem,
 navLinkText,
 footerStyle,
 } from "./css/layout.module.css"
+
 
 const Layout = ({ pageTitle, children }) => {
     const data = useStaticQuery(graphql`

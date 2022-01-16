@@ -3,8 +3,7 @@
 .container {
     margin: auto;
     max-width: 800px;
-    /* font-family: sans-serif; */
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;          
     font-size: 18px;
 }
 
@@ -35,4 +34,12 @@
 .footer-style {
     text-align: center;
     padding: 30px;
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 4px solid #ccc;
+    margin: 1.5em 3px;
+    padding: 0.4em 10px .3em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
 }

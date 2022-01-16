@@ -43,5 +43,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-remark-reading-time`,
     `gatsby-plugin-fontawesome-css`,
+    `gatsby-plugin-twitter`,
   ],
 };
