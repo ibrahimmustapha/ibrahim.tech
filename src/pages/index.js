@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 const IndexPage = () => {
   return (
     <Layout pageTitle="Welcome Home">
-      <StaticImage src="https://placekitten.com/800/600" alt="A kitten" />
+      <StaticImage src="./code.png" alt="A kitten" />
       <p>A basic example website should demonstrate a specific 
         technology/plugin/technique to help other developers understand how to accomplish</p>
     </Layout>

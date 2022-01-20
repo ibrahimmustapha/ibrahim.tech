@@ -5,6 +5,8 @@
     max-width: 800px;
     font-family: 'Poppins', sans-serif;          
     /* font-size: 16px; */
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .heading {
@@ -38,7 +40,7 @@
 
 blockquote {
     background: #f9f9f9;
-    border-left: 4px solid #ccc;
+    border-left: 5px solid #ccc;
     margin: 1.5em 3px;
     padding: 0.4em 10px .3em 10px;
     quotes: "\201C""\201D""\2018""\2019";
@@ -47,3 +49,4 @@ blockquote {
 a {
     text-decoration: none;
 }
+
