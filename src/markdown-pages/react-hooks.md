@@ -46,9 +46,3 @@ title: "React Hooks Explained With Usestate && UseEffect"
 ### Why is hooks so important in react 16
 
 ### Conclusion
-
-<style>
-    code {
-        background-color: grey;
-    }
-</style>
