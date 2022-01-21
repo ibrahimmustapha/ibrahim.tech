@@ -4,7 +4,7 @@ date: "2019-05-04"
 description: "After learning the basics of a programming language most code newbies don't know what path to dive into. Here are five career paths you can dive into after learning the basics of java."
 author: "Mustapha Ibrahim"
 github: "https://github.com/ibrahimmustapha"
-hero_image: "../assets/img2.jpg"
+hero_image: "./img2.jpg"
 hero_image_alt: "green robot"
 title: "5 Career Paths You Can Dive Into After Learning The Basics Of Java"
 ---
