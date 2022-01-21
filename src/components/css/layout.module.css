@@ -50,3 +50,20 @@ a {
     text-decoration: none;
 }
 
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+
+  img {
+      max-width: 100%;
+  }

@@ -1,7 +1,7 @@
 ---
-slug: "/blog/my-second-post"
+slug: "/blog/big-o-notation-explained"
 date: "2019-05-07"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+description: "Big O notation is used to calculate how much time and space it takes an algorithms to be executed as input size grows (in computer science)."
 author: "Mustapha Ibrahim"
 github: "https://github.com/ibrahimmustapha"
 hero_image: "./img2.jpg"
@@ -87,9 +87,9 @@ In quadratic time complexity, the algorithm grows directly proportional to twice
 ## Here’s a graph to demonstrate the time complexities mentioned above
 
 
-![1200px-Comparison_computational_complexity.svg.png](./img3.jpg)
+![1200px-Comparison_computational_complexity.svg.png](https://cdn-images-1.medium.com/max/1000/1*eDRWfab60l7trIFmP4WuiQ.png)
 
-Hi 👋there I'm Ibrahim and Thanks for reading this article. 
-And don’t forget to follow me on twitter [@codewithibrahim](https://twitter.com/codewithibrahim) on twitter for more content.
+Hi 👋 there I'm Ibrahim and Thanks for reading this article. 
+And don’t forget to follow me on twitter [@codewithibrahim](https://twitter.com/codewithibrahim) for more content.
 
 Subscribe to my channel  [Code With Ibrahim](https://www.youtube.com/channel/UCDtJePh9OtGrU9oaXXPNn8Q) 
