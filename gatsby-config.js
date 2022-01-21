@@ -12,6 +12,12 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/src/markdown-pages/assets`,
+      }
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -19,6 +25,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 800,
+              quality: 50,
               withWebp: true,
               disableBgImage: true,
               backgroundColor: `transparent`,
