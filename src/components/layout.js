@@ -22,7 +22,8 @@ const Layout = ({ pageTitle, children }) => {
   `)
 
     return (
-        <div className={container}>
+      <div>
+          <div className={container}>
             <title>{data.site.siteMetadata.title}</title>
             <h2 className={heading}>{pageTitle}</h2>
             <nav>
@@ -35,10 +36,11 @@ const Layout = ({ pageTitle, children }) => {
             <main>
                 {children}
             </main>
-            <footer className={footerStyle}>
-            ©2022 Ibrahim Mustapha's Tech Blog.
-            </footer>
         </div>
+        <footer className={footerStyle}>
+            ©2022 Ibrahim Mustapha's Tech Blog.
+        </footer>
+      </div>
     )
 }
 

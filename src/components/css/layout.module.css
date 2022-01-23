@@ -36,6 +36,8 @@
 .footer-style {
     text-align: center;
     padding: 30px;
+    font-family: 'Poppins', sans-serif;      
+    max-width: 100%;
 }
 
 blockquote {
@@ -49,21 +51,20 @@ blockquote {
 a {
     text-decoration: none;
 }
-
 table, td, th {  
     border: 1px solid #ddd;
     text-align: left;
-  }
+}
   
-  table {
+table {
     border-collapse: collapse;
     width: 100%;
-  }
+}
   
-  th, td {
+th, td {
     padding: 15px;
-  }
+}
 
-  img {
+img {
       max-width: 100%;
-  }
+}
