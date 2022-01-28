@@ -41,15 +41,19 @@ Time complexity is the amount of time it takes an ``algorithm`` to run or be exe
 
 - Pour hot water in a mug
 - Pour coffee into a mug
-- ``Fetch sugar with a spoon``
-- ``Pour the sugar into the tea``
+- **Fetch sugar with a spoon**
+- **Pour the sugar in to the tea**
 - Repeat steps 3 and 4 until you’ve added the desired amount of sugar.
 
 Looking at the algorithm above, the more the sugar the larger the algorithm grows 
 
-- 1 sugar  ------ 4 steps
-- 2 sugars ------ 6 steps 
-- 3 sugars ------ 8 steps 
+
+| Amount of Sugar | Steps Involded |
+| --------------- | -------------- |
+| 1 spoon         | 4 steps        |
+| 2 spoon         | 6 steps        |
+| 3 spoon         | 8 steps        |
+
 
 ## How to Calculate the time complexity of the algorithm above (**with the example above**)
 
@@ -65,9 +69,13 @@ In linear time complexity, the algorithm grows directly proportional to the size
 
 This means the bigger the input gets, the bigger the time it takes to execute the algorithm which makes it a linear time complexity. Just like this ⬇
 
-- 1 sugar  _______________ 4 steps
-- 2 sugars _______________ 6 steps 
-- 3 sugars ________________ 8 steps 
+
+| Amount of Sugar | Steps Involded |
+| --------------- | -------------- |
+| 1 spoon         | 4 steps        |
+| 2 spoon         | 6 steps        |
+| 3 spoon         | 8 steps        |
+
 
 ## Let’s talk about some of the types of time complexities down here⬇
 

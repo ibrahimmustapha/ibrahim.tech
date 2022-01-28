@@ -9,7 +9,7 @@ hero_image_alt: "react hooks"
 title: "React Hooks Explained With Usestate && UseEffect"
 ---
 
-``You’re not a complete react developer **if you don’t fully understand how react-hooks** work.`` Hooks in react makes react more fun to code. Before the introduction of hooks and functional components in react, there was class components and States and Lifecycle. But first all, **what is react?** Let's talk about it.
+You’re not a complete react developer if you don’t fully understand how react-hooks work. Hooks in react makes react more fun to code. Before the introduction of hooks and functional components in react, there was class components and States and Lifecycle. But first all, **what is react?** Let's talk about it.
 
 ## Table of content
 ---
@@ -25,12 +25,16 @@ title: "React Hooks Explained With Usestate && UseEffect"
 > - [Conclusion](#header10)
 
 ### What is React?
-``React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.`` It is maintained by Meta and a community of individual developers and companies (wikipedea). React is used for building single page web applications (SPA). ``SPAs are web applications that render everything on a single page dynamically unlike the traditional websites that loads an entire new web page.``
+
+React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies (wikipedea). React is used for building single page web applications (SPA). ``SPAs`` are web applications that render everything on a single page dynamically unlike the traditional websites that loads an entire new web page.
 
 ### Why should you learn react?
 1. **Single Page Web Applications -** As I explained earlier, single page application (SPA) are web application that renders everything on a single webpage dynamically. React makes it possible to develop single page applications. ``Popular web applications like Gmail, Netflix, Facebook, Twitter are good examples of single page application.``
+
 2. **Easy to Maintain -** Web page applications written with react are 99% of the time divided into smaller components. ``For example a portfolio web application can be divided into components such as home, about, contact and blog. This makes react code easy to maintain.``
+
 3. **Opensource -** 
+
 4. **Large Community -**
 
 ### What are class components
@@ -47,3 +51,13 @@ title: "React Hooks Explained With Usestate && UseEffect"
 ### Why is hooks so important in react 16
 
 ### Conclusion
+
+```js {numberLines}
+// print function
+const print = (n) => {
+    return n;
+}
+
+// print something
+print("hello")
+```

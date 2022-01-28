@@ -15,7 +15,7 @@ After learning the basics of a programming language most code newbies don't know
 
 # What is Java in the first place?
 
-``Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.`` Java was created by **James Gosling** and his team at sun micro systems. Java was first released in the year 1995. Now back to the paths down here.
+``Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.`` Java was created by ``James Gosling`` and his team at sun micro systems. Java was first released in the year 1995. Now back to the paths down here.
 
 
 ## 1. Android Development

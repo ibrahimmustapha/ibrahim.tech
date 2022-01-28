@@ -20,14 +20,15 @@
 
 .author-container {
     display: flex;
-    margin-top: 15px;
+    /* margin-top: 15px; */
     padding-top: 10px;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
 }
 
 .author-details {
     margin-top: -26px;
     margin-left: 20px;
+    line-height: 1.5rem;
 }
 
 .blog-image {

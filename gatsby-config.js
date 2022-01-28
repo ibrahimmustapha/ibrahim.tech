@@ -34,8 +34,13 @@ module.exports = {
             options: {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
+          },  
+          {
+            resolve: `gatsby-remark-vscode`,
+            options: {
+              theme: "Dark+ (default dark)",
+            }
           },
-          `gatsby-remark-prismjs`,
         ],
       },
     },
