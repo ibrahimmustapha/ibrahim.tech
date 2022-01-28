@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
 .container {
     margin: auto;
     max-width: 800px;
-    font-family: 'Source Serif 4', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     padding-left: 10px;
     padding-right: 10px;
@@ -53,6 +53,7 @@ code {
     margin: 0;
     background-color: rgba(27, 31, 35, 0.05);
     border-radius: 3px;
+    /* font-family: 'Poppins', sans-serif; */
   }
 
 a {

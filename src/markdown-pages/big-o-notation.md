@@ -62,7 +62,7 @@ Total number of steps =  2n + 2
 
 The two in front of the n is the steps 3 and 4 (which is 2 steps)  and the other 2 is steps 1 and 2. This means steps one and two are constant steps because they do not change no matter the input size size (which  is sugar). 
 
-The (n) represents the desired amount of sugar which changes depending on the person taking the coffee. In this case the time complexity is O(n) which is Linear Time Complexity. ``And also the time complexity of an algorithm is determined by the worst case scenario.``
+The (n) represents the desired amount of sugar which changes depending on the person taking the coffee. In this case the time complexity is O(n) which is Linear Time Complexity. **And also the time complexity of an algorithm is determined by the worst case scenario.**
 
 ## Why Linear Time Complexity
 In linear time complexity, the algorithm grows directly proportional to the size of the input data. 
