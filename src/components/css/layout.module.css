@@ -37,8 +37,8 @@
 .footer-style {
     text-align: center;
     padding: 30px;
-    font-family: 'Poppins', sans-serif;      
     max-width: 100%;
+    font-size: 18px;
 }
 
 blockquote {

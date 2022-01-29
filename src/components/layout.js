@@ -38,7 +38,7 @@ const Layout = ({ pageTitle, children }) => {
             </main>
         </div>
         <footer className={footerStyle}>
-            ©2022 Ibrahim Mustapha's Tech Blog.
+            ©2022 Ibrahim's Tech Blog.
         </footer>
       </div>
     )
