@@ -4,7 +4,7 @@ date: "2019-05-07"
 description: "Big O notation is used to calculate how much time and space it takes an algorithms to be executed as input size grows (in computer science)."
 author: "Mustapha Ibrahim"
 github: "https://github.com/ibrahimmustapha"
-hero_image: "./img2.jpg"
+hero_image: "./img4.jpg"
 hero_image_alt: "green robot"
 title: "Big O Notation Explained with an Example"
 ---

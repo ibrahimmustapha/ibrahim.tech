@@ -7,7 +7,7 @@
 .date-link {
     color: rgb(155, 152, 152);
     margin-top: -20px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .avatar-style {
@@ -31,8 +31,9 @@
 }
 
 .blog-image {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-height: 25em;
 }
 
 .icon-container {

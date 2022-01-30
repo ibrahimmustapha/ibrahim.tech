@@ -1,8 +1,8 @@
 {
-  "name": "markdown-app",
+  "name": "ibrahim-blog",
   "version": "1.0.0",
   "private": true,
-  "description": "Markdown app",
+  "description": "Ibrahim__Blog",
   "author": "ibrahimmustapha",
   "keywords": [
     "gatsby"
@@ -26,7 +26,7 @@
     "gatsby-plugin-fontawesome-css": "^1.2.0",
     "gatsby-plugin-image": "^2.4.0",
     "gatsby-plugin-mdx": "^3.4.0",
-    "gatsby-plugin-sharp": "^4.5.0",
+    "gatsby-plugin-sharp": "^4.6.0",
     "gatsby-plugin-twitter": "^4.5.0",
     "gatsby-prism-highlight": "^0.1.10",
     "gatsby-remark-color-highlight": "^1.0.2",

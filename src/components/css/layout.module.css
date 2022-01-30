@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400&display=swap');
 
 .container {
     margin: auto;
     max-width: 800px;
     font: 100%/1.7 'Merriweather','Georgia',serif;
-    font-size: 18px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -54,10 +53,11 @@ code {
     margin: 0;
     background-color: rgba(27, 31, 35, 0.05);
     border-radius: 3px;
-  }
+    font-family: monospace;
+    font-size: 112%;
+}
 
 a {
-    /* text-decoration: none; */
     color: rgba(0, 17, 255, 0.705);
     text-underline-offset: 6px;
 }
@@ -85,8 +85,8 @@ img {
 }
 
 /* Responsive style here */
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
     .container {
         font-size: 17px;
     }
-}
+} */

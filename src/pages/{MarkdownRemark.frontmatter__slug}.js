@@ -72,11 +72,6 @@ query($id: String!) {
             }
         }
       }
-      fields {
-        readingTime {
-          text
-        }
-      }
     }
   }
 `
