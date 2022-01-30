@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import PostLink from "../components/post-link"
 import Layout from "../components/layout"
+import Search from "../components/search"
 
 const IndexPage = ({
     data: {
@@ -13,6 +14,7 @@ const IndexPage = ({
       .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
     return (
         <Layout pageTitle="Mustapha Ibrahim's Blog">
+          <Search />
             <div>{Posts}</div>
         </Layout>
     )

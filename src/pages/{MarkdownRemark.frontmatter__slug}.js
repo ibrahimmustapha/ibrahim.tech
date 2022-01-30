@@ -22,7 +22,7 @@ const Template = ({ data }) => {
     const { frontmatter, html } = markdownRemark
     const image = getImage(frontmatter.hero_image)
     return (
-      <Layout pageTitle="Welcome to my blog">
+      <Layout pageTitle="Mustapha Ibrahim's Blog">
         <div className="blog-post-container">
         <div className="blog-post">
           <GatsbyImage className={blogImage} image={image} alt={frontmatter.hero_image_alt}/>

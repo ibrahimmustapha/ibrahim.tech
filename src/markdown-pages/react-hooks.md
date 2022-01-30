@@ -4,7 +4,7 @@ date: "2019-05-10"
 description: "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies"
 author: "Mustapha Ibrahim"
 github: "https://github.com/ibrahimmustapha"
-hero_image: "./img1.jpg"
+hero_image: "./assets/img1.jpg"
 hero_image_alt: "react hooks"
 title: "React Hooks Explained With Usestate && UseEffect"
 ---
