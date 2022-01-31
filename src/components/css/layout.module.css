@@ -30,7 +30,7 @@
 }
 
 .nav-link-text:hover {
-    color: blue;
+    color: rebeccapurple;
     text-decoration: underline;
 }
 
@@ -42,7 +42,6 @@
 }
 
 blockquote {
-    background: #ffffff;
     border-left: 5px solid rgb(0, 0, 0);
     margin: 1.5em 3px;
     padding: 0.4em 10px .3em 10px;
@@ -59,7 +58,7 @@ code {
 }
 
 a {
-    color: rgba(0, 17, 255, 0.705);
+    color: rebeccapurple;
     text-underline-offset: 6px;
 }
 
