@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400&display=swap');
 
+body {
+    background-color: #0d1117;
+    color: #C9D1D9;
+}
+
 .container {
     margin: auto;
     max-width: 800px;
@@ -25,12 +30,12 @@
 }
 
 .nav-link-text {
-    color: black;
+    color: #fff;
     text-decoration: none;
 }
 
 .nav-link-text:hover {
-    color: blue;
+    color:  blue;
     text-decoration: underline;
 }
 
@@ -42,24 +47,23 @@
 }
 
 blockquote {
-    background: #ffffff;
-    border-left: 5px solid rgb(0, 0, 0);
+    border-left: 5px solid rgb(199, 199, 199);
     margin: 1.5em 3px;
     padding: 0.4em 10px .3em 10px;
     quotes: "\201C""\201D""\2018""\2019";
 }
 
 code {
+    background-color: #6E769166;
     padding: 0.2em 0.4em;
     margin: 0;
-    background-color: rgba(27, 31, 35, 0.05);
     border-radius: 3px;
     font-family: monospace;
     font-size: 112%;
 }
 
 a {
-    color: rgba(0, 17, 255, 0.705);
+    color: #58A6FF;
     text-underline-offset: 6px;
 }
 

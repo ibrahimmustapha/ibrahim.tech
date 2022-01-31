@@ -8,14 +8,14 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "markdown-pages",
-        path: `${__dirname}/src/markdown-pages`,
+        path: `${__dirname}/src/content`,
       },
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "assets",
-        path: `${__dirname}/src/markdown-pages/assets`,
+        path: `${__dirname}/src/content/assets`,
       },
     },
     {
@@ -45,7 +45,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-vscode`,
             options: {
-              theme: "Dark (Visual Studio)",
+              theme: "Dark+ (default dark)",
             }
           },
         ],
