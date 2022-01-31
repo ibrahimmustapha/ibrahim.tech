@@ -1,6 +1,5 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
-import Theme from "./min__components/theme"
 import {
 container,
 heading,
@@ -32,7 +31,6 @@ const Layout = ({ pageTitle, children }) => {
                 <li className={navLinkItem}><Link to="/" className={navLinkText}>home</Link></li>
                 <li className={navLinkItem}><Link to="/about" className={navLinkText}>about</Link></li>
                 <li className={navLinkItem}><Link to="/blog" className={navLinkText}>blog</Link></li>
-                <Theme />
                 </ul>
             </nav>
             <main>
