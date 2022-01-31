@@ -29,9 +29,9 @@ You’re not a complete react developer if you don’t fully understand how reac
 React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies (wikipedea). React is used for building single page web applications (SPA). ``SPAs`` are web applications that render everything on a single page dynamically unlike the traditional websites that loads an entire new web page.
 
 ### Why should you learn react?
-1. **Single Page Web Applications -** As I explained earlier, single page application ``(SPA)`` are web application that renders everything on a single webpage dynamically. React makes it possible to develop single page applications. Popular web applications like **Gmail, Netflix, Facebook, Twitter** are good examples of single page application.
+1. **Single Page Web Applications -** As I explained earlier, single page application (SPA) are web application that renders everything on a single webpage dynamically. React makes it possible to develop single page applications. Popular web applications like **Gmail, Netflix, Facebook, Twitter** are good examples of single page application.
 
-2. **Easy to Maintain -** Web page applications written with react are ``99%`` of the time divided into smaller components. For example a portfolio web application can be divided into components such as ``home, about, contact and blog.`` This makes react code easy to maintain.
+2. **Easy to Maintain -** Web page applications written with react are 99% of the time divided into smaller components. For example a portfolio web application can be divided into components such as ``home, about, contact and blog.`` This makes react code easy to maintain.
 
 3. **Opensource -** 
 

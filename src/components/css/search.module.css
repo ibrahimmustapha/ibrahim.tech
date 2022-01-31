@@ -1,6 +1,8 @@
 /* search styles here */
 input[type=text] {
     width: 93%;
+    /* padding: 20px; */
+    /* border: none; */
     border: 2px solid black;
     padding: 0.7em 0.5em;
     font-size: 17px;
