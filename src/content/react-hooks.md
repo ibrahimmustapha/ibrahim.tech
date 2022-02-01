@@ -41,6 +41,8 @@ React is a free and open-source front-end JavaScript library for building user i
 
 ### What are functional Components
 
+> *"Some people don't like change, but you need to embrace change if the alternative is disaster."*
+
 ### Difference Between Class components and Functional components
 
 ### States and LIfecylce
