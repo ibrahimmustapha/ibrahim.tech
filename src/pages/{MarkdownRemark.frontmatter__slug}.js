@@ -37,7 +37,7 @@ const Template = ({ data }) => {
             <Link className={iconLink} to={frontmatter.github}>
             <FontAwesomeIcon icon={faGithub} className={iconStyle} />
             </Link>
-            <Link className={iconLink} to={frontmatter.github}>
+            <Link className={iconLink} to={frontmatter.twitter}>
             <FontAwesomeIcon icon={faTwitter} className={iconStyle} />
             </Link>
             </div>
@@ -65,6 +65,7 @@ query($id: String!) {
         description
         author
         github
+        twitter
         hero_image_alt
         hero_image {
             childImageSharp {

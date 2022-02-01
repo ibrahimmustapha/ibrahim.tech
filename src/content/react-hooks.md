@@ -4,6 +4,7 @@ date: "2019-05-10"
 description: "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies"
 author: "Mustapha Ibrahim"
 github: "https://github.com/ibrahimmustapha"
+twitter: "https://twitter.com/codewithibrahim"
 hero_image: "./assets/img1.jpg"
 hero_image_alt: "react hooks"
 title: "React Hooks Explained With Usestate && UseEffect"
@@ -52,13 +53,16 @@ React is a free and open-source front-end JavaScript library for building user i
 
 
 ```js {numberLines}
-// print function
-const print = (n) => {
-    return n;
+function factorial(n) {
+    if (n === 0) {
+        return 1
+    }
+
+    return n * factorial(n - 1)
 }
 
-// print something
-print("hello")
+let res = factorial(5)
+console.log(res) // log results here 
 ```
 
 ### Why is hooks so important in react 16
