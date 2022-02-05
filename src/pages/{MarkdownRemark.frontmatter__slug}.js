@@ -54,8 +54,10 @@ const Template = ({ data }) => {
       </div>
       <hr className={lineStyle}/>
       <ReactDisqusComments
-    shortname="https-dreamy-swanson-87057a-netlify-app-blog"
-    />
+      shortname="https-dreamy-swanson-87057a-netlify-app-blog"
+      identifier= {data.id}
+      title={data.title}
+       />
         </Layout>
     )
 }
