@@ -4,6 +4,7 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { StaticImage } from "gatsby-plugin-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons"
+import ReactDisqusComments from 'react-disqus-comments';
 import Layout from "../components/layout"
 import {
 dateLinkSpan,
@@ -14,7 +15,8 @@ authorDetails,
 blogImage,
 iconContainer,
 iconStyle,
-iconLink
+iconLink,
+lineStyle
 } from "../styles/blog.module.css"
 
 const Template = ({ data }) => {
@@ -50,6 +52,10 @@ const Template = ({ data }) => {
           />
         </div>
       </div>
+      <hr className={lineStyle}/>
+      <ReactDisqusComments
+    shortname="https-dreamy-swanson-87057a-netlify-app-blog"
+    />
         </Layout>
     )
 }
