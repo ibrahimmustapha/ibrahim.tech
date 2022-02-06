@@ -23,6 +23,12 @@ const Template = ({ data }) => {
     const { markdownRemark } = data // holds post data
     const { frontmatter, html } = markdownRemark
     const image = getImage(frontmatter.hero_image)
+    const disqusShortname = "https-dreamy-swanson-87057a-netlify-app-blog"
+    const disqusConfig = {
+      identifier: data.markdownRemark.id,
+      title: data.markdownRemark.frontmatter.title,
+      url: 'https://dreamy-swanson-87057a.netlify.app/' + data.markdownRemark.frontmatter.slug,
+    }
     return (
       <Layout pageTitle="Mustapha Ibrahim's Blog">
         <div className="blog-post-container">
@@ -53,11 +59,7 @@ const Template = ({ data }) => {
         </div>
       </div>
       <hr className={lineStyle}/>
-      <ReactDisqusComments
-      shortname="https-dreamy-swanson-87057a-netlify-app-blog"
-      identifier= {data.id}
-      title={data.title}
-       />
+      <ReactDisqusComments shortname={disqusShortname} config={disqusConfig} />
         </Layout>
     )
 }

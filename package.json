@@ -21,6 +21,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.16",
     "@mdx-js/mdx": "^1.6.22",
+    "dotenv": "^16.0.0",
     "gatsby": "^4.4.0",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-disqus": "^1.2.3",
