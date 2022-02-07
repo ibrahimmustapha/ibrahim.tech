@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400&display=swap');
-
 .container {
-    margin: auto;
-    max-width: 800px;
-    font: 100%/1.7 'Merriweather','Georgia',serif;
     padding-left: 10px;
     padding-right: 10px;
 }
