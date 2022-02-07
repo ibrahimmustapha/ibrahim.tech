@@ -13,9 +13,9 @@ title: "Big O Notation Explained with an Example"
 Computer programming is not just knowing the syntax of a programming language like Java or Python, there's more and the almighty big O is no exception. 
 
  
-## What is big O notation
+## What is big O notation?
 
-Big O notation is used to calculate how much time and space it takes an algorithms to be executed as input size grows (in computer science). 
+Big O notation is used to calculate how much time and space it takes an algorithms to be executed as input size grows ``(in computer science).``
 
 
 ## Big O notation basically talks about 2 (two) things:
@@ -66,15 +66,18 @@ Looking at the algorithm above, the more the sugar the larger the algorithm grow
 Number of desired sugar = n
 Total number of steps =  2n + 2
 
-The two in front of the n is the steps 3 and 4 (which is 2 steps)  and the other 2 is steps 1 and 2. This means steps one and two are constant steps because they do not change no matter the input size size (which  is sugar). 
+The two in front of the n is the steps 3 and 4 (which is 2 steps)  and the other 2 is steps 1 and 2. This means, steps 1 and 2 are constant steps because they do not change no matter the input size(which  is sugar). 
 
-The ``(n)`` represents the desired amount of sugar which changes depending on the person taking the coffee. In this case the time complexity is O(n) which is Linear Time Complexity. ``And also the time complexity of an algorithm is determined by the worst case scenario.``
+The ``(n)`` represents the desired amount of sugar which changes depending on the who is taking the coffee. In this case, the time complexity of the alogirith above is O(n) which is Linear Time Complexity. 
+
+> **Note:**
+> <mark>*The time complexity of an algorithm is determined by the worst case scenario.*</mark>
 
 
 ## Why Linear Time Complexity
 In linear time complexity, the algorithm grows directly proportional to the size of the input data. 
 
-This means the bigger the input gets, the bigger the time it takes to execute the algorithm which makes it a linear time complexity. Just like this ⬇
+The more input size grows, the more time it takes to execute the algorithm which makes it a linear time complexity. Just like this ⬇
 
 
 | Amount of Sugar | Steps Involded |
@@ -89,22 +92,21 @@ This means the bigger the input gets, the bigger the time it takes to execute th
 ### Constant Time Complexity O(1)
 If it takes an algorithm the same amount of time to be executed regardless of the size of the input data, 
 
-it is termed as a constant time complexity ``O(1)``.  This by far the best time complexity.
+it is referred to as a constant time complexity ``O(1)``.  This is by far the best time complexity.
 
 ### Linear Time Complexity O(n)
 In linear time complexity, the algorithm grows directly proportional to the size of the input data. 
 
-This means the greater the bigger the input gets, the bigger the time it takes to execute the algorithm.
+This means, the more input size grows, the more time it takes to execute the algorithm.
 
 ### Quadratic Time Complexity O(n^2)
 In quadratic time complexity, the algorithm grows directly proportional to twice the size of the input data.
 
 ## Here’s a graph to demonstrate the time complexities mentioned above
 
-
-![1200px-Comparison_computational_complexity.svg.png](https://cdn-images-1.medium.com/max/1000/1*eDRWfab60l7trIFmP4WuiQ.png)
+![1200px-Comparison_computational_complexity.svg.png](http://res.cloudinary.com/leaena/image/upload/v1391709344/bigo_rqzv9e.png)
 
 Hi 👋 there I'm Ibrahim and Thanks for reading this article. 
-And don’t forget to follow me on twitter [@codewithibrahim](https://twitter.com/codewithibrahim) for more content.
+Please don’t forget to follow me on twitter [@codewithibrahim](https://twitter.com/codewithibrahim).
 
-Subscribe to my channel  [Code With Ibrahim](https://www.youtube.com/channel/UCDtJePh9OtGrU9oaXXPNn8Q) 
+Subscribe to my channel  [Code With Ibrahim](https://www.youtube.com/channel/UCDtJePh9OtGrU9oaXXPNn8Q) for video lessons. 

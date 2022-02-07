@@ -1,0 +1,48 @@
+/* Global stylesheet */
+blockquote {
+    border-left: 5px solid rgb(0, 0, 0);
+    margin: 1.5em 3px;
+    padding: 0.4em 10px .3em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+code {
+    background-color: rgba(27, 31, 35, 0.05);
+    padding: 0.2em 0.4em;
+    margin: 0;
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: 112%;
+}
+
+a {
+    color: rebeccapurple;
+    text-underline-offset: 6px;
+}
+
+p {
+    line-height: 2rem;
+}
+
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+}
+  
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th, td {
+    padding: 15px;
+}
+
+img {
+      max-width: 100%;
+}
+
+mark {
+    background-color: rgb(245, 221, 113);
+    padding: 0.2em 0.4em;
+}
