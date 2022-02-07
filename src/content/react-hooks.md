@@ -18,55 +18,105 @@ You’re not a complete react developer if you don’t fully understand how reac
 > - [Why should you learn react? ](#header2) 
 > - [What are class components](#header3) 
 > - [What are functional Components](#header4)
-> - [Difference Between Class components and Functional components](#header5)
-> - [States and LIfecylce](#header6)
-> - [Events](#header7)
-> - [Hooks](#header8)
-> - [Why is hooks so important in react 16](#header9)
-> - [Conclusion](#header10)
+> - [Hooks](#header5)
+> - [What hooks bring to the table](#header6)
+> - [Conclusion](#header7)
 
 ### What is React?
+<div id='header1'/>
 
 React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies (wikipedea). React is used for building single page web applications (SPA). ``SPAs`` are web applications that render everything on a single page dynamically unlike the traditional websites that loads an entire new web page.
 
 ### Why should you learn react?
+<div id='header2'/>
+
 1. **Single Page Web Applications -** As I explained earlier, single page application ``(SPA)`` are web application that renders everything on a single webpage dynamically. React makes it possible to develop single page applications. Popular web applications like **Gmail, Netflix, Facebook, Twitter** are good examples of single page application.
 
 2. **Easy to Maintain -** Web page applications written with react are ``99%`` of the time divided into smaller components. For example a portfolio web application can be divided into components such as ``home, about, contact and blog.`` This makes react code easy to maintain.
 
-3. **Opensource -** 
+3. **Opensource -** Open source means the software is made available for free ``(not propriotory)``. React is free to use and modify to suit one's needs. As developer, you get the chance to contribute to the develpment of React which gives you more experience and a huge advantage in the job market. 
 
-4. **Large Community -**
+4. **Large Community -** React has a large community due to its popularity. According to <mark>Stackoverflow Developer Survey</mark> React is the most popular web framework. There tons of forums, blogs and articles about React which comes in handy when developing projects. 
 
-### What are class components
+### What are Class Components
+<div id='header3'/>
 
-### What are functional Components
+Class components are JavaScript classes that renders ``JSX``. Class components uses a method called ``render()`` to return JSX code.
 
-> *"Some people don't like change, but you need to embrace change if the alternative is disaster."*
-
-### Difference Between Class components and Functional components
-
-### States and LIfecylce
-<div id='header1'/>
-
-### Hooks
-
-
-```js {numberLines}
-function factorial(n) {
-    if (n === 0) {
-        return 1
+#### Example of a functional Components
+```js {1, 4-6}
+class App extends React.Component {
+    render() {
+        return (
+            <div>
+            <p>I'm {this.props.age} years old.</p>
+            </div>
+        )
     }
-
-    return n * factorial(n - 1)
 }
-
-let res = factorial(5)
-console.log(res) // log results here 
 ```
 
-### Why is hooks so important in react 16
+### What are Functional Components
+<div id='header4'/>
+
+React functional components are JavaScript functions that accepts ``props`` (properties) which returns ``JSX``. JSX stands for JavaScript ``XML``. JSX allows us to write HTML elements in JavaScript code. 
+
+#### Example of a functional Components
+```js {1, 3-6}
+function MyCompany(props) {
+    return (
+        <div>
+        <h1>Hi, my name is {props.name}</h1>
+        <p>Hello, Mr. React</p>
+        </div>
+    )
+}
+```
+
+### Hooks
+<div id='header5'/>
+
+Hooks are functions that let you “hook into” React state and lifecycle features from function components. React hooks were initially introduced in ``React 16.8``. The beauty of hooks is - it allows you to write use state and other React components without writing a class. Hooks makes it possible to use states in React ``React Functional Components.``
+
+#### The useState Hook
+The ``useState`` hook is called inside a ``functional component``. The ``useState`` is declared by returning two variables - ``the current state and a function to update the state.`` 
+
+#### An example to explain the concept of hooks 
+```js {1,5, 8-13}
+import React, { useState } from 'react'
+
+function Example() {
+    // Declare state variable
+    const [count, setCount] = useState(0)
+
+    return  (
+        <div>
+        <p>I am {count} years old </p>
+        <button onClick={() => setCount(count + 1)}>
+        Add +1
+        </button>
+        </div>
+    )
+}
+```
+It's totally okay to smash your computer right now (kiding. Ha!). You first declare the state variable 
+```js 
+const [count, setCount] = useState(0)
+```
+This variable consist of the inital state variable ``(count)`` and a function to update the state ``(setCount).`` In this example the initial state (count) is set to 0. This function
+
+Now in order to update the state ``(count)``, we call the function from an event handler i.e ``onClick`` to update the current state value. In this the current state value is incremented by 1 everytime a user clicks the button. 
+
+### Why use Hooks
+<div id='header6'/>
+
+Hooks solves a number of issues with React. Some of these issues include -
+
+1. It’s hard to reuse stateful logic between components
+2. Complex components become hard to understand
+3. Classes confuse both people and machines
 
 ### Conclusion
-In conclusion react-hooks is one of the best things that ever happened to reactJs. 
-Thanks for reading. Have a nice day.!
+<div id='header7'/>
+
+React hooks brings a lot of to the table and everyone should master it. Thanks for for making it down here. But before you leave - follow me on twitter [@codewithibrahim](https://twitter.com/codewithibrahim). Have a nice day :)!
