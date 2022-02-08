@@ -5,9 +5,9 @@ description: "React is a free and open-source front-end JavaScript library for b
 author: "Mustapha Ibrahim"
 github: "https://github.com/ibrahimmustapha"
 twitter: "https://twitter.com/codewithibrahim"
-hero_image: "./assets/img1.jpg"
+hero_image: "./assets/img6.png"
 hero_image_alt: "react hooks"
-title: "React Hooks Explained With Usestate && UseEffect"
+title: "React Hooks Explained With Usestate"
 ---
 
 You’re not a complete react developer if you don’t fully understand how react-hooks work. Hooks in react makes react more fun to code. Before the introduction of hooks and functional components in react, there was class components and States and Lifecycle. But first all, **what is react?** Let's talk about it.
@@ -44,7 +44,7 @@ React is a free and open-source front-end JavaScript library for building user i
 Class components are JavaScript classes that renders ``JSX``. Class components uses a method called ``render()`` to return JSX code.
 
 #### Example of a functional Components
-```js
+```js {1,5}
 class App extends React.Component {
     render() {
         return (
@@ -62,7 +62,7 @@ class App extends React.Component {
 React functional components are JavaScript functions that accepts ``props`` (properties) which returns ``JSX``. JSX stands for JavaScript ``XML``. JSX allows us to write HTML elements in JavaScript code. 
 
 #### Example of a functional Components
-```js 
+```js {1, 3-6}
 function MyCompany(props) {
     return (
         <div>
@@ -76,13 +76,13 @@ function MyCompany(props) {
 ### Hooks
 <div id='header5'/>
 
-Hooks are functions that let you “hook into” React state and lifecycle features from function components. React hooks were initially introduced in ``React 16.8``. The beauty of hooks is that - it allows you to use state and other React components without writing a class. Hooks makes it possible to use states in React ``React Functional Components.``
+Hooks are functions that let you “hook into” React state and lifecycle features from function components. React hooks were initially introduced in ``React 16.8``. The beauty of hooks is that - it allows you to use state and other React components without writing a class. Hooks makes it possible to use states in ``React Functional Components.``
 
 #### The useState Hook
-The ``useState`` hook is called inside a ``functional component``. The ``useState`` hook is declared by returning two variables - ``the current state and a function to update the state.`` 
+The ``useState`` hook is called inside a ``functional component``. The ``useState`` hook is declared by returning two variables - i.e ``the current state and a function to update the state.`` 
 
 #### An example to explain the concept of hooks 
-```js
+```js {1,3, 9-12}
 import React, { useState } from 'react'
 
 function Example() {
@@ -100,7 +100,7 @@ function Example() {
 }
 ```
 It's totally okay to smash your computer right now (kiding. Ha!). You first declare the state variable 
-```js 
+```js
 const [count, setCount] = useState(0)
 ```
 This variable consist of the inital state variable ``(count)`` and a function to update the state ``(setCount).`` In this example the initial state (count) is set to 0. This function
@@ -112,9 +112,9 @@ In order to update the state ``(count)``, we call the function from an event han
 
 Hooks solves a number of issues with React. Some of these issues include -
 
-1. It’s hard to reuse stateful logic between components
-2. Complex components become hard to understand
-3. Classes confuse both people and machines
+1. It’s hard to reuse stateful logic between components i.e ``(class component).``
+2. Complex components become hard to understand i.e ``(class component).``
+3. Classes confuse both people and machines i.e ``(class component).``
 
 ### Conclusion
 <div id='header7'/>
