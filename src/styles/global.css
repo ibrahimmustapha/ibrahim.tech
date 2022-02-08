@@ -25,6 +25,7 @@ code {
     border-radius: 3px;
     font-family: monospace;
     width: 98%;
+    max-width: 100%;
 }
 
 a {
