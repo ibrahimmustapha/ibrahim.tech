@@ -3,7 +3,7 @@ module.exports = {
     title: "Ibrahim blog",
     author: "Ibrahim Mustapha",
     description: "Information about Ibrahim Mustapha",
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://dreamy-swanson-87057a.netlify.app",
     image: "src/content/assets/img6.png"
   },
   plugins: [
