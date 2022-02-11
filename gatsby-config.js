@@ -4,7 +4,7 @@ module.exports = {
     author: "Ibrahim Mustapha",
     description: "Information about Ibrahim Mustapha",
     siteUrl: "https://dreamy-swanson-87057a.netlify.app",
-    image: "src/content/assets/img6.png"
+    image: "src/content/assets/mee.jpg"
   },
   plugins: [
     {
