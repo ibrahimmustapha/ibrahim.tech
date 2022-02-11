@@ -4,7 +4,7 @@ module.exports = {
     author: "Ibrahim Mustapha",
     description: "Information about Ibrahim Mustapha",
     siteUrl: "https://www.yourdomain.tld",
-    image: "src/pages/images/mee.jpg"
+    image: "src/content/assets/img6.png"
   },
   plugins: [
     {
