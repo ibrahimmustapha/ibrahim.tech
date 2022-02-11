@@ -18,11 +18,15 @@ iconStyle,
 iconLink,
 lineStyle
 } from "../styles/blog.module.css"
+import SearchEngineOptimization from "../components/seo"
+
 
 const Template = ({ data }) => {
     const { markdownRemark } = data // holds post data
     const { frontmatter, html } = markdownRemark
     const image = getImage(frontmatter.hero_image)
+    // const post = data.markdownRemark
+    // const siteTitle = data.site.siteMetadata.title
     const disqusShortname = "https-dreamy-swanson-87057a-netlify-app-blog"
     const disqusConfig = {
       identifier: data.markdownRemark.id,
@@ -31,13 +35,20 @@ const Template = ({ data }) => {
     }
     return (
       <Layout pageTitle="Mustapha Ibrahim's Blog">
+        <SearchEngineOptimization 
+        title={frontmatter.title}
+        description={frontmatter.description}
+        image={frontmatter.image}/>
+
         <div className="blog-post-container">
         <div className="blog-post">
           <GatsbyImage className={blogImage} image={image} alt={frontmatter.hero_image_alt}/>
           <h1>{frontmatter.title}</h1>
+          
+          {/* Author's description */}
           <hr/>
           <div className={authorContainer}>
-            <StaticImage className={avatarStyle} src="./mee.jpg" alt="avatar" />
+            <StaticImage className={avatarStyle} src="./images/mee.jpg" alt="avatar" />
             <div className={authorDetails}>
             <h3>{frontmatter.author}</h3>
             <p className={dateLink}>Published on <span className={dateLinkSpan}>{frontmatter.date}</span></p>
@@ -52,6 +63,8 @@ const Template = ({ data }) => {
             </div>
           </div>
           <hr/>
+
+        {/* blog content */}
           <div
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}

@@ -1,7 +1,10 @@
 module.exports = {
   siteMetadata: {
+    title: "Ibrahim blog",
+    author: "Ibrahim Mustapha",
+    description: "Information about Ibrahim Mustapha",
     siteUrl: "https://www.yourdomain.tld",
-    title: "Ibrahim__blog",
+    image: "src/pages/images/mee.jpg"
   },
   plugins: [
     {
@@ -16,6 +19,19 @@ module.exports = {
       options: {
         name: "assets",
         path: `${__dirname}/src/content/assets`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "images",
+        path: `${__dirname}/src/pages/images`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: 'static/me.png',
       },
     },
     {
@@ -56,5 +72,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-twitter`,
+    `gatsby-plugin-react-helmet`,
   ],
 };
