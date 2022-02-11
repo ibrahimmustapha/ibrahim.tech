@@ -64,6 +64,13 @@ module.exports = {
               theme: "Dark+ (default dark)",
             }
           },
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_blank",
+              rel: "nofollow",
+            }
+          },
         ],
       },
     },

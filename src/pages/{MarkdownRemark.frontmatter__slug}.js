@@ -25,8 +25,6 @@ const Template = ({ data }) => {
     const { markdownRemark } = data // holds post data
     const { frontmatter, html } = markdownRemark
     const image = getImage(frontmatter.hero_image)
-    // const post = data.markdownRemark
-    // const siteTitle = data.site.siteMetadata.title
     const disqusShortname = "https-dreamy-swanson-87057a-netlify-app-blog"
     const disqusConfig = {
       identifier: data.markdownRemark.id,
