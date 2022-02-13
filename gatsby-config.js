@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Ibrahim blog",
     author: "Ibrahim Mustapha",
-    description: "Information about Ibrahim Mustapha",
+    description: "Ibrahim is a self-taught software developer based in Ghana🇬🇭.",
     siteUrl: "https://dreamy-swanson-87057a.netlify.app",
     image: "src/content/assets/mee.jpg"
   },
