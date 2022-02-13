@@ -20,7 +20,6 @@ lineStyle
 } from "../styles/blog.module.css"
 import SearchEngineOptimization from "../components/seo"
 
-
 const Template = ({ data }) => {
     const { markdownRemark } = data // holds post data
     const { frontmatter, html } = markdownRemark
