@@ -24,6 +24,7 @@ const Stack = (props) => {
                 <li>Java && Java Android</li>
                 <li>Gatsby Js</li>
                 <li>Git</li>
+                <li>SQL</li>
             </ul>
         </div>
     )
@@ -48,11 +49,12 @@ const Bio = () => {
             <hr/>
             <ul>
             <li><b>Ibrahim</b> is a self-taught software developer based in Ghana🇬🇭.</li>
-            <li>He's a student at the University of Professional Studies - Accra studying Information Technology
+            <li> He's a student at the University of Professional Studies - Accra studying Information Technology
                Management.</li> 
             <li>He enjoys writing and building software applications.</li> 
-            <li>When he's not glued not glued to 
-               a computer screen, he spends time playing watching football⚽ or basketball🏀 games.
+            <li>When he's not glued to 
+               a computer screen, he spends time watching football⚽ 
+               or basketball🏀 games.
             </li>
             </ul>
             <Education />
