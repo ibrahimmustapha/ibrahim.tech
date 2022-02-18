@@ -44,7 +44,7 @@ React is a free and open-source front-end JavaScript library for building user i
 Class components are JavaScript classes that renders ``JSX``. Class components uses a method called ``render()`` to return JSX code.
 
 #### Example of a functional Components
-```js {1,5}
+```js
 class App extends React.Component {
     render() {
         return (
@@ -62,7 +62,7 @@ class App extends React.Component {
 React functional components are JavaScript functions that accepts ``props`` (properties) which returns ``JSX``. JSX stands for JavaScript ``XML``. JSX allows us to write HTML elements in JavaScript code. 
 
 #### Example of a functional Components
-```js {1, 3-6}
+```js
 function MyCompany(props) {
     return (
         <div>
@@ -82,13 +82,12 @@ Hooks are functions that let you “hook into” React state and lifecycle featu
 The ``useState`` hook is called inside a ``functional component``. The ``useState`` hook is declared by returning two variables - i.e ``the current state and a function to update the state.`` 
 
 #### An example to explain the concept of hooks 
-```js {1,3, 9-12}
+```js
 import React, { useState } from 'react'
 
 function Example() {
     // Declare state variable
     const [count, setCount] = useState(0)
-
     return  (
         <div>
         <p>I am {count} years old </p>
