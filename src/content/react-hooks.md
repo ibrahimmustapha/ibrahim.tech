@@ -46,6 +46,9 @@ Class components are JavaScript classes that renders ``JSX``. Class components u
 #### Example of a functional Components
 ```js
 class App extends React.Component {
+    constructor(props) {
+        super(props)
+    }
     render() {
         return (
             <div>
