@@ -8,6 +8,20 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        tracckingIds: [
+          "G-0JMBTHVYS2",
+        ],
+        gtagConfig: {
+         anonymize_ip: true,
+        },
+        pluginConfig: {
+          head: false,
+        },
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "markdown-pages",
