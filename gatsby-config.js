@@ -11,7 +11,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         tracckingIds: [
-          "G-DBESF66SML",
+          "G-WDC55Q7GKV",
         ],
         gtagConfig: {
          anonymize_ip: true,
