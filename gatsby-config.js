@@ -10,7 +10,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        tracckingIds: [
+        trackingId: [
           "G-WDC55Q7GKV",
         ],
         gtagConfig: {
