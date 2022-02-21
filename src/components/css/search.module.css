@@ -1,7 +1,8 @@
 /* search styles here */
-input[type=text] {
+input[type=search] {
     width: 93%;
     border: 2px solid black;
     padding: 0.7em 0.5em;
     font-size: 17px;
+    margin-bottom: 20px;
 }

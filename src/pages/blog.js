@@ -1,25 +1,31 @@
 import React from "react"
 import { graphql } from "gatsby"
-import PostLink from "../components/post-link"
 import Layout from "../components/layout"
-import Search from "../components/search"
 import SearchEngineOptimization from "../components/seo"
+import PostLink from "../components/post-list"
 
-const IndexPage = ({
-    data: {
+// search component
+const SearchContent = ({
+  data: {
       allMarkdownRemark: { edges },
     },
   }) => {
-    const Posts = edges
-      .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
+    // filter post based on blog id && title
+    const List = edges
+      .filter(edge => !!edge.node.frontmatter.date) 
       .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
-    return (
-        <Layout pageTitle="Mustapha Ibrahim's Blog">
-          <SearchEngineOptimization title="Blog" />
-          <Search />
-            <div>{Posts}</div>
-        </Layout>
-    )
+  return (
+    <Layout pageTitle="Mustapha Ibrahim's Blog">
+      <SearchEngineOptimization title="Search"/>
+      <form>
+            <input 
+            type="search" 
+            placeholder="search blog here" 
+            id="search"/>
+        </form>
+        <div> {List} </div>
+    </Layout>
+  )
 }
 
 export const pageQuery = graphql`
@@ -34,6 +40,12 @@ export const pageQuery = graphql`
             slug
             title
             description
+            hero_image_alt
+            hero_image {
+                childImageSharp {
+                    gatsbyImageData
+                }
+            }
           }
         }
       }
@@ -41,5 +53,4 @@ export const pageQuery = graphql`
   }
 `
 
-export default IndexPage
-
+export default SearchContent
