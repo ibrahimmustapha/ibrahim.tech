@@ -8,7 +8,9 @@ blogDate,
 readMe,
 headContainer,
 mImage,
-searchContainer
+searchContainer,
+descStyle,
+readMeContainer,
 } from "../components/css/post.module.css"
 
 const PostLink = ({ post }) => {
@@ -23,10 +25,13 @@ const PostLink = ({ post }) => {
           </Link>
             </h4>
         <p className={blogDate}>Published on {post.frontmatter.date}</p>
+        <p className={descStyle}> {post.frontmatter.description} </p>
         <p>
+        <div className={readMeContainer}>        
         <Link className={readMe} to={post.frontmatter.slug}>
-            Read more
+        Read more
         </Link>
+        </div>
         </p>
         </article>
         </div>
