@@ -6,28 +6,26 @@
 
 .date-link {
     color: rgb(155, 152, 152);
-    margin-top: -20px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .avatar-style {
-    width: 57px;
-    height: 57px;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
-    margin-top: -3px;
+    margin-top: -8px;
 }
 
 .author-container {
     display: flex;
-    /* margin-top: 15px; */
     padding-top: 10px;
-    /* padding-bottom: 10px; */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .author-details {
-    margin-top: -26px;
     margin-left: 20px;
-    line-height: 1.5rem;
+    line-height: 1.3rem;
 }
 
 .blog-image {
@@ -36,19 +34,12 @@
     max-height: 25em;
 }
 
-.icon-container {
-    margin-top: -17px;
-}
-
-.icon-style {
-    padding-right: 15px;
-}
-
-.icon-link {
-    color: rgb(112, 112, 112);
-}
-
 .line-style {
     margin-top: 35px;
     margin-bottom: 35px;
+}
+
+.author-name {
+    font-size: 15px;
+    font-weight: bolder;
 }

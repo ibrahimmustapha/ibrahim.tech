@@ -1,5 +1,7 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons"
 import {
 container,
 heading,
@@ -7,6 +9,9 @@ navLinks,
 navLinkItem,    
 navLinkText,
 footerStyle,
+iconContainer,
+iconStyle,
+iconLink,
 } from "./css/layout.module.css"
 import "../styles/global.css"
 
@@ -38,6 +43,10 @@ const Layout = ({ pageTitle, children }) => {
         </div>
         <footer className={footerStyle}>
             ©2022 Ibrahim's Tech Blog.
+          <div className={iconContainer}>
+          <Link to="" className={iconLink}><FontAwesomeIcon className={iconStyle} icon={faGithub} /></Link>
+          <Link to="" className={iconLink}><FontAwesomeIcon className={iconStyle} icon={faTwitter} /></Link>
+          </div>
         </footer>
       </div>
     )

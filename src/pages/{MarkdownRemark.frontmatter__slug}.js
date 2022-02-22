@@ -1,9 +1,7 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { StaticImage } from "gatsby-plugin-image"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons"
 import ReactDisqusComments from 'react-disqus-comments';
 import Layout from "../components/layout"
 import {
@@ -13,10 +11,8 @@ avatarStyle,
 authorContainer,
 authorDetails,
 blogImage,
-iconContainer,
-iconStyle,
-iconLink,
-lineStyle
+lineStyle,
+authorName,
 } from "../styles/blog.module.css"
 import SearchEngineOptimization from "../components/seo"
 
@@ -43,23 +39,15 @@ const Template = ({ data }) => {
           <h1>{frontmatter.title}</h1>
           
           {/* Author's description */}
-          <hr/>
           <div className={authorContainer}>
             <StaticImage className={avatarStyle} src="./images/mee.jpg" alt="avatar" />
             <div className={authorDetails}>
-            <h3>{frontmatter.author}</h3>
-            <p className={dateLink}>Published on <span className={dateLinkSpan}>{frontmatter.date}</span></p>
-            <div className={iconContainer}>
-            <Link className={iconLink} to={frontmatter.github}>
-            <FontAwesomeIcon icon={faGithub} className={iconStyle} />
-            </Link>
-            <Link className={iconLink} to={frontmatter.twitter}>
-            <FontAwesomeIcon icon={faTwitter} className={iconStyle} />
-            </Link>
+            <div className={authorName}>{frontmatter.author}</div>
+            <div>
+            <div className={dateLink}><span className={dateLinkSpan}>{frontmatter.date} - @mibrahim</span></div>
             </div>
             </div>
           </div>
-          <hr/>
 
         {/* blog content */}
           <div

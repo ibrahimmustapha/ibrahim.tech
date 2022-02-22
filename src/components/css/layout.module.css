@@ -35,3 +35,14 @@
     font-size: 18px;
 }
 
+.icon-container {
+    padding-top: 20px;
+}
+
+.icon-style {
+    padding-right: 25px;
+}
+
+.icon-link {
+    color: rgb(105, 105, 105);
+}
