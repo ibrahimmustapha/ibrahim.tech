@@ -44,10 +44,12 @@ const Template = ({ data }) => {
             <div className={authorDetails}>
             <div className={authorName}>{frontmatter.author}</div>
             <div>
-            <div className={dateLink}><span className={dateLinkSpan}>{frontmatter.date} - @mibrahim</span></div>
+            <div className={dateLink}><span className={dateLinkSpan}>{frontmatter.date} - @codewithibrahim</span></div>
             </div>
             </div>
           </div>
+
+          {/* <li> {frontmatter.tags} </li> */}
 
         {/* blog content */}
           <div

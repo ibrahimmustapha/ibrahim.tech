@@ -5,6 +5,9 @@
 
 .heading {
     color: rebeccapurple;
+    padding-top: 20px;
+    font-size: 23px;
+    font-weight: bold;
 }
 
 .nav-links {

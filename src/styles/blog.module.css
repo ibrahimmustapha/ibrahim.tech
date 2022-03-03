@@ -43,3 +43,20 @@
     font-size: 15px;
     font-weight: bolder;
 }
+
+.keyword-style {
+    background-color: #ebebeb;
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.keywords-container {
+    display: flex;
+    /* gap: 10px;
+    grid-row: 4; */
+}

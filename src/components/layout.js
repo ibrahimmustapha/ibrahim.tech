@@ -30,7 +30,7 @@ const Layout = ({ pageTitle, children }) => {
       <div>
           <div className={container}>
             <title>{data.site.siteMetadata.title}</title>
-            <h2 className={heading}>{pageTitle}</h2>
+            <div className={heading}>{pageTitle}</div>
             <nav>
                 <ul className={navLinks}>
                 <li className={navLinkItem}><Link to="/" className={navLinkText}>home</Link></li>
@@ -44,8 +44,8 @@ const Layout = ({ pageTitle, children }) => {
         <footer className={footerStyle}>
             ©2022 Ibrahim's Tech Blog.
           <div className={iconContainer}>
-          <Link to="" className={iconLink}><FontAwesomeIcon className={iconStyle} icon={faGithub} /></Link>
-          <Link to="" className={iconLink}><FontAwesomeIcon className={iconStyle} icon={faTwitter} /></Link>
+          <Link to="https://github.com/ibrahimmustapha" className={iconLink}><FontAwesomeIcon className={iconStyle} icon={faGithub} /></Link>
+          <Link to="https://twitter.com/codewithibrahim" className={iconLink}><FontAwesomeIcon className={iconStyle} icon={faTwitter} /></Link>
           </div>
         </footer>
       </div>

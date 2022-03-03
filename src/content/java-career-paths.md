@@ -2,6 +2,7 @@
 slug: "/blog/five-career-paths-for-java-devs"
 date: "2019-05-04"
 description: "After learning the basics of a programming language most code newbies don't know what path to dive into. Here are five career paths you can dive into after learning the basics of java."
+tags: ["Java", "Career", "Android", "DevOps", "Game", "Web-Development"]
 author: "Mustapha Ibrahim"
 github: "https://github.com/ibrahimmustapha"
 twitter: "https://twitter.com/codewithibrahim"

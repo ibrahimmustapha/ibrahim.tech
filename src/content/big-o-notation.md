@@ -2,6 +2,7 @@
 slug: "/blog/big-o-notation-explained"
 date: "2019-05-07"
 description: "Big O notation is used to calculate how much time and space it takes an algorithms to be executed as input size grows (in computer science)."
+tags: ["Big-O", "Programming", "Time Complexity", Space Complexity"]
 author: "Mustapha Ibrahim"
 github: "https://github.com/ibrahimmustapha"
 twitter: "https://twitter.com/codewithibrahim"
@@ -20,8 +21,8 @@ Big O notation is used to calculate how much time and space it takes an algorith
 
 ## Big O notation basically talks about 2 (two) things:
 
-1. **Time Complexity**
-2. **Space Complexity**
+>- **Time Complexity**
+>- **Space Complexity**
 
 
 ## Space Complexity

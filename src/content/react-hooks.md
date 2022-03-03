@@ -2,6 +2,7 @@
 slug: "/blog/react-hooks-explained"
 date: "2019-05-10"
 description: "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies"
+tags: ["JavaScript", "React", "Components", "Coding", "Frontend-Devlopment"]
 author: "Mustapha Ibrahim"
 github: "https://github.com/ibrahimmustapha"
 twitter: "https://twitter.com/codewithibrahim"
