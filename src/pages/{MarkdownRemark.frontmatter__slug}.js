@@ -17,7 +17,6 @@ tagContainer,
 tagStyle
 } from "../styles/blog.module.css"
 import SearchEngineOptimization from "../components/seo"
-// import Tags from "./templates/tags"
 
 const Template = ({ data }) => {
     const { markdownRemark } = data // holds post data
