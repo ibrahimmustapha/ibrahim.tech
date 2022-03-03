@@ -27,6 +27,7 @@ code {
     border-radius: 3px;
     width: 98%;
     max-width: 100%;
+    font-size: 0.8em;
 }
 
 a {
@@ -73,4 +74,10 @@ li, ol {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Hind Madurai', sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+    code {
+        font-size: 14px;
+    }
 }

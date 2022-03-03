@@ -1,9 +1,8 @@
-import React, { useState } from "react"
+import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SearchEngineOptimization from "../components/seo"
 import PostLink from "../components/post-list"
-
 
 // search component
 const SearchContent = ({
@@ -11,7 +10,7 @@ const SearchContent = ({
       allMarkdownRemark: { edges },
     },
   }) => {
-    const [ searchQuery, setSearchQuery ] = useState("")
+    // const [ searchQuery, setSearchQuery ] = useState("")
     // filter post based on blog id && title
     const List = edges
       .filter(edge => !!edge.node.frontmatter.date) 
@@ -23,7 +22,7 @@ const SearchContent = ({
             <input 
             type="search" 
             placeholder="search blog here" 
-            onChange={searchQuery}
+            // onChange={searchQuery}
             id="search"/>
         </form>
         <div> {List} </div>

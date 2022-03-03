@@ -13,13 +13,17 @@ authorDetails,
 blogImage,
 lineStyle,
 authorName,
+tagContainer,
+tagStyle
 } from "../styles/blog.module.css"
 import SearchEngineOptimization from "../components/seo"
+// import Tags from "./templates/tags"
 
 const Template = ({ data }) => {
     const { markdownRemark } = data // holds post data
     const { frontmatter, html } = markdownRemark
     const image = getImage(frontmatter.hero_image)
+    const tag = frontmatter.tags
     const disqusShortname = "https-dreamy-swanson-87057a-netlify-app-blog"
     const disqusConfig = {
       identifier: data.markdownRemark.id,
@@ -37,6 +41,12 @@ const Template = ({ data }) => {
         <div className="blog-post">
           <GatsbyImage className={blogImage} image={image} alt={frontmatter.hero_image_alt}/>
           <h1>{frontmatter.title}</h1>
+
+          <div className={tagContainer}>
+            {tag.map((items) => {
+              return <div className={tagStyle}> {items} </div>
+            })}
+          </div>
           
           {/* Author's description */}
           <div className={authorContainer}>
@@ -48,8 +58,6 @@ const Template = ({ data }) => {
             </div>
             </div>
           </div>
-
-          {/* <li> {frontmatter.tags} </li> */}
 
         {/* blog content */}
           <div
@@ -66,25 +74,26 @@ const Template = ({ data }) => {
 
 export const pageQuery = graphql`
 query($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
-      frontmatter {
-        date(formatString: "MMMM DD, YYYY")
-        slug
-        title
-        description
-        author
-        github
-        twitter
-        hero_image_alt
-        hero_image {
-            childImageSharp {
-                gatsbyImageData
-            }
-        }
+  markdownRemark(id: { eq: $id }) {
+    html
+    frontmatter {
+      date(formatString: "MMMM DD, YYYY")
+      slug
+      title
+      description
+      author
+      github
+      tags
+      twitter
+      hero_image_alt
+      hero_image {
+          childImageSharp {
+              gatsbyImageData
+          }
       }
     }
   }
+}
 `
 
 export default Template
