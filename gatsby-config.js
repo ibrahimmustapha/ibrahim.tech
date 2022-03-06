@@ -3,6 +3,7 @@ module.exports = {
     title: "Ibrahim blog",
     author: "Ibrahim Mustapha",
     description: "Ibrahim is a self-taught software developer based in Ghana🇬🇭.",
+    tags: ["Programming JavaScript SQL React Android Java"],
     siteUrl: "https://dreamy-swanson-87057a.netlify.app",
     image: "src/content/assets/mee.jpg"
   },

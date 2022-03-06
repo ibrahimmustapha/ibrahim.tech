@@ -34,6 +34,7 @@ const Template = ({ data }) => {
         <SearchEngineOptimization 
         title={frontmatter.title}
         description={frontmatter.description}
+        tags={frontmatter.tags}
         image={frontmatter.image}/>
 
         <div className="blog-post-container">
