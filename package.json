@@ -6,7 +6,7 @@
   "author": "ibrahimmustapha",
     "engines": {
     "node": "16.18.0"
-  }
+  },
   "keywords": [
     "gatsby"
   ],
